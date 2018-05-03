@@ -16,10 +16,8 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var colorTwo: UIView!
     @IBOutlet weak var mascotImage: UIImageView!
     @IBOutlet weak var detailTitleLabel: UINavigationItem!
-    
 
-    func configureView() { //need help writing out this code properly
-        // Update the user interface for the detail item.
+    func configureView() {
         if let detail = detailItem {
             if let label = detailTitleLabel {
                 label.title = detail.title
@@ -36,28 +34,16 @@ class DetailViewController: UIViewController {
         }
     }
     
-    
-
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
         configureView()
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     var detailItem: Teams? {
         didSet {
-            // Update the view.
             configureView()
         }
     }
-
-
 }
 

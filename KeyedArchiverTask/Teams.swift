@@ -46,23 +46,4 @@ class Teams: NSObject, NSCoding {
     var title: String {
         return "\(city) \(teamName)"
     }
-    
-    /* need to find how to make the switch work and how to change code to make this generate corresponding image rather than a random one
-    switch teamName {
-    case "Bears":
-        self.mascot = #imageLiteral(resourceName: "bear")
-    case "Pirates":
-        self.mascot = #imageLiteral(resourceName: "pirate")
-    case "Tigers":
-        self.mascot = #imageLiteral(resourceName: "tiger")
-    case "Cyclones":
-        self.mascot = #imageLiteral(resourceName: "cyclone")
-    case "Eagles":
-        self.mascot = #imageLiteral(resourceName: "eagle")
-    default: "needLogo"
-    }*/
-    
-
-    
-    
 }
