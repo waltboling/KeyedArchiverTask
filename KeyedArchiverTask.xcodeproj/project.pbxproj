@@ -13,6 +13,7 @@
 		E632C453209805600064016E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E632C451209805600064016E /* Main.storyboard */; };
 		E632C455209805610064016E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E632C454209805610064016E /* Assets.xcassets */; };
 		E632C458209805610064016E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E632C456209805610064016E /* LaunchScreen.storyboard */; };
+		E632C460209805A90064016E /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = E632C45F209805A90064016E /* Teams.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E632C454209805610064016E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E632C457209805610064016E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E632C459209805610064016E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E632C45F209805A90064016E /* Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				E632C44B209805600064016E /* AppDelegate.swift */,
 				E632C44D209805600064016E /* MasterViewController.swift */,
+				E632C45F209805A90064016E /* Teams.swift */,
 				E632C44F209805600064016E /* DetailViewController.swift */,
 				E632C451209805600064016E /* Main.storyboard */,
 				E632C454209805610064016E /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E632C460209805A90064016E /* Teams.swift in Sources */,
 				E632C450209805600064016E /* DetailViewController.swift in Sources */,
 				E632C44E209805600064016E /* MasterViewController.swift in Sources */,
 				E632C44C209805600064016E /* AppDelegate.swift in Sources */,
